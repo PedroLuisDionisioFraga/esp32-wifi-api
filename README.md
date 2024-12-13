@@ -33,8 +33,7 @@ Disconnect from Wi-Fi: Cleans up resources and disconnects from the current AP.
 The target network must be a router and configured to use `WIFI_AUTH_WPA_WPA2_PSK` security and 2.4GHz frequency band.
 
 ## How to Use
-1. Ensure you have the ESP-IDF installed and set up.
-2. Include the WiFi API module in your project by adding it to your `CMakeLists.txt`:
+Include the WiFi API module in your project by adding it to your `CMakeLists.txt`:
 ```cmake
 idf_component_register(SRCS "wifi_api.c"
                     INCLUDE_DIRS "include"
